@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt-minano
+name: Build OpenWrt-minano-ssr
 
 on:
 #  repository_dispatch:
@@ -28,7 +28,7 @@ env:
   REPO_URL: https://github.com/project-openwrt/openwrt
   REPO_BRANCH: openwrt-19.07
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: minano.config
+  CONFIG_FILE: minano-ssr.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
